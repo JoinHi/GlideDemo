@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //                .load(R.mipmap.test)
 //                .load(file)
                 .load(R.mipmap.test)
-                .imageRadius(100)
+//                .imageRadius(100)
                 .placeholder(R.mipmap.placeholder)
 //                .errorImage(R.mipmap.ic_launcher_round)
                 .imageView(imageView)
 //                .centerCrop()
 //                .circleCrop()
-                .roundedCorner(300)
+                .roundedCorner(5000)
                 .listener(new OnImageLoadListener() {
                     @Override
                     public void onLoadFailed(Object model) {
