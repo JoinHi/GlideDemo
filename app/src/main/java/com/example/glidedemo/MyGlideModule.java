@@ -22,6 +22,7 @@ public class MyGlideModule extends AppGlideModule {
         super.applyOptions(context, builder);
         //master
         //master2
+        //master3
 
     }
 }
