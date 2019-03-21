@@ -58,7 +58,7 @@ public class GlideImageLoaderStrategy implements BaseImageLoaderStrategy {
                     }
                 })
                 .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
-                .fitCenter()
+//                .fitCenter()
 //                .override()
 //                .dontAnimate()
 //                .transition(DrawableTransitionOptions.withCrossFade())
