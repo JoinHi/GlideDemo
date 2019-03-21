@@ -20,6 +20,8 @@ public class MyGlideModule extends AppGlideModule {
     @Override
     public void applyOptions(@NonNull Context context, @NonNull GlideBuilder builder) {
         super.applyOptions(context, builder);
+        //master
         builder.setResizeExecutor()
+
     }
 }
